@@ -13,7 +13,6 @@
     font-weight: 400;
     src: url(../fonts/MaterialIcons.woff2) format('woff2');
 }
-
 .material-icons {
     font-family: 'Material Icons', serif;
     font-weight: normal;
@@ -44,10 +43,10 @@ main {
     flex: 1 0 auto;
 }
 
-/* .page-footer { */
-    /* margin-left: 260px; */
-    /* padding: 0; */
-/* } */
+.card-image img{
+    max-width: 100%;
+    max-height: 256px;
+}
 
 .container {
     width: 85%;
@@ -121,28 +120,27 @@ main {
     /* 电脑屏幕 */
     margin-left: 64px;
     margin-right: 64px;
-
-    /* 手机尺寸 */
-    /*margin-left: 16px;*/
-    /*margin-right: 16px;*/
 }
 
 #page-content .row {
     margin-top: 182px;
 }
 
-/* #nav-mobile { */
-    /* margin-bottom: 40px; */
-/* } */
-
 header, main, footer {
     /* margin-left: 260px; */
     padding-left: 260px;
 }
 
+.card a {
+    /*position: absolute;*/
+    top: -18px;
+    left: 18px;
+    /*right: 36px;*/
+}
+
 /*===============================================================*/
-/*  屏幕像素 600 - 980 之间的布局  */
-@media only screen and (max-width: 980px) {
+/*  屏幕像素 600 - 992 之间的布局  */
+@media only screen and (max-width: 992px) {
     
     header, main, footer {
         padding-left: 0;
